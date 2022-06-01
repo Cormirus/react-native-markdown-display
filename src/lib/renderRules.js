@@ -80,7 +80,7 @@ const renderRules = {
 
   // Blockquotes
   blockquote: (node, children, parent, styles) => (
-    <View key={node.key} style={styles._VIEW_SAFE_blockquote}>
+    <View key={node.key} style={styles.blockquote}>
       {children}
     </View>
   ),
